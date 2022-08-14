@@ -1,0 +1,17 @@
+.custom-list, .custom-paragraph {
+  font-size: 2rem;
+}
+
+.custom-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.custom-title {
+  font-size: 1.5rem;
+}
+
+.custom-title, .custom-image {
+  margin: 0 !important;
+}

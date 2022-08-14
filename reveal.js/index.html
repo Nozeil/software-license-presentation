@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>reveal.js</title>
+
+	<link rel="stylesheet" href="./dist/reset.css">
+	<link rel="stylesheet" href="./dist/reveal.css">
+	<link rel="stylesheet" href="./dist/theme/black.css">
+
+	<!-- Theme used for syntax highlighted code -->
+	<link rel="stylesheet" href="./plugin/highlight/monokai.css">
+	<link rel="stylesheet" href="./dist/theme/serif.css">
+	<link rel="stylesheet" href="./css/custom.css">
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section>
+				<h3>Software licences</h3>
+			</section>
+			<section>
+				<h4>What is a software licence?</h4>
+				<p class="custom-paragraph">A licence is essentially an agreement between the developer and the user.</p>
+				<img src="./assets/agreement.png" alt="agreement">
+			</section>
+			<section>
+				<h4>What does the software licence include?</h4>
+				<ul class="custom-list">
+					<li>Permission to use the software</li>
+					<li>Usage rights</li>
+					<li>Number of users eligible to use the software</li>
+					<li>Inclusions with the software (such as support, maintenance, software upgrades)</li>
+					<li>Warranty terms</li>
+					<li>Permissions and limitations regarding the distribution of the software</li>
+					<li>Copyright definition</li>
+					<li>Terms for termination of the licence</li>
+					<li>Software performance guarantees</li>
+					<li>Penalties and fees for non-compliance</li>
+				</ul>
+			</section>
+			<section>
+				<h4>Licence types:</h4>
+				<ul class="custom-list">
+					<li class="fragment">Free and open-source</li>
+					<li class="fragment">Proprietary</li>
+				</ul>
+			</section>
+			<section>
+				<section>
+					<h4>Free and open-source:</h4>
+					<ul class="custom-list">
+						<li class="fragment">Public domain licence</li>
+						<li class="fragment">FOSS permissive licence</li>
+						<li class="fragment">Copyleft</li>
+					</ul>
+				</section>
+				<section>
+					<h4>Free and open-source software</h4>
+					<div class="custom-flex">
+						<img class="fragment custom-image" src="assets/SQLite.png" alt="logo">
+						<img class="fragment custom-image" src="assets/ImageJ.png" alt="logo">
+						<img class="fragment custom-image" src="assets/Apache.png" alt="logo">
+						<img class="fragment custom-image" src="assets/linux.png" alt="logo">
+						<img class="fragment custom-image" src="assets/gimp.png" alt="logo">
+						<img class="fragment custom-image" src="assets/obs.png" alt="logo">
+					</div>
+				</section>
+			</section>
+			<section>
+				<section>
+					<h4>Proprietary software licences:</h4>
+					<ul class="custom-list">
+						<li class="fragment">Conditionally free</li>
+						<li class="fragment">Proprietary</li>
+						<li class="fragment">Trade secret</li>
+					</ul>
+				</section>
+				<section>
+					<h4>Proprietary software</h4>
+					<div class="custom-flex">
+						<img class="fragment custom-image" src="assets/windows.png" alt="logo">
+						<img class="fragment custom-image" src="assets/Winamp.png" alt="logo">
+						<img class="fragment custom-image" src="assets/Spotify.png" alt="logo">
+						<img class="fragment custom-image" src="assets/lol.png" alt="logo">
+					</div>
+				</section>
+			</section>
+			<section>
+				<section>
+					<h4>How licence agreements protect developers</h4>
+					<ul class="custom-list">
+						<li>They protect developers' intellectual property and trade secrets based on copyright laws.</li>
+						<li>They limit what other parties can do with the covered software code.</li>
+						<li>They limit the liability of the vendor.</li>
+					</ul>
+				</section>
+			</section>
+			<section>
+				<section>
+					<h4>How licence agreements protect users</h4>
+					<ul class="custom-list">
+						<li>They define what users can do with software code they did not write.</li>
+						<li>They establish how users stay in compliance with software licences, protect themselves from infringement claims and limit their legal liability.</li>
+						<li>They help users maintain a positive relationship with software developers and vendors.</li>
+						<li>They prevent overspending on licences by establishing clear parameters of how many licences an organisation needs.</li>
+					</ul>
+				</section>
+			</section>
+			<section>
+				<h4>Thank you for watching!</h4>
+			</section>
+		</div>
+	</div>
+
+	<script src="dist/reveal.js"></script>
+	<script src="plugin/notes/notes.js"></script>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script src="plugin/highlight/highlight.js"></script>
+	<script>
+		// More info about initialization & config:
+		// - https://revealjs.com/initialization/
+		// - https://revealjs.com/config/
+		Reveal.initialize({
+			hash: true,
+
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+		});
+	</script>
+</body>
+
+</html>
